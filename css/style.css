@@ -1,0 +1,423 @@
+/* Universal styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Change to your desired background color */
+    color: #333; /* Default text color */
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff; /* Change to your desired background color */
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black; /* Text color for the Xavier logo */
+}
+
+/* Style the Font Awesome icons (Facebook and Instagram) */
+.navbar-nav.ml-auto .nav-link i {
+    font-size: 24px; /* Adjust icon size */
+    color: black; /* Icon color */
+}
+
+/* Style the navigation links */
+.navbar-nav.ml-auto .nav-item {
+    margin-left: 20px; /* Adjust as needed for the desired spacing between links */
+}
+
+.navbar-nav.ml-auto .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black; /* Text color for navigation links */
+}
+
+.navbar-nav.ml-auto .nav-link:hover {
+    color: #033872; /* Text color on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative; /* Make sure the container is positioned relative */
+    background-image: url('/images/wigs-4.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color on the hero section */
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding as needed */
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* CTA Button Styles */
+.btn-primary {
+    background-color: #000; /* Button background color */
+    color: #fff; /* Button text color */
+    font-weight: 600;
+    padding: 15px 30px; /* Adjust padding as needed */
+    border-radius: 30px; /* Adjust border radius for rounded corners */
+    text-decoration: none; /* Remove underlines from links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #f8f9fa; /* Change background color on hover */
+    color: #000; /* Button text color */
+}
+
+/* Services Section Styles */
+.services {
+    background-color: #fff; /* Background color for the services section */
+    padding: 80px 0; /* Adjust the padding as needed */
+    margin-bottom: 10px
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+/* Service Item Styles */
+.service-item {
+    text-align: center;
+    position: relative;
+    width: 100%; /* Set a fixed width for each service item */
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the service items horizontally */
+    margin-bottom: 5px; /* Adjust the margin to control the vertical spacing */
+    padding: 20px; /* Adjust the padding to control the spacing inside each box */
+}
+
+
+/* Service Item Image Styles */
+.service-item img {
+    width: 100%; /* Set a fixed width for the image */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the fixed dimensions */
+    transition: transform 0.3s ease; /* Add a smooth transition for the image */
+    display: block; /* Remove any residual vertical space */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.service-item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-item p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Hover effect for the image */
+.service-item:hover img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f8f9fa; /* Background color for the About section */
+    padding: 80px 0; /* Adjust the padding as needed */
+    margin-top: -10px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000; /* Text color for section titles */
+    margin-bottom: 5px;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Text color for descriptions */
+    margin-bottom: 5px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #000; /* Background color for the Contact section */
+    padding: 80px 0; /* Adjust the padding as needed */
+    color: #fff; /* Text color for contact information */
+}
+
+.contact .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.contact-label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.contact-value {
+    font-weight: 400;
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #fff; /* Background color for the footer */
+    color: #000; /* Text color for footer content */
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.footer-logo a {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000; /* Logo text color */
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #000; /* Social media icon color */
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #033872; /* Social media icon color on hover */
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #000; /* Footer link text color */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #033872; /* Footer link text color on hover */
+}
+
+.footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact li {
+    margin-bottom: 10px;
+}
+
+.footer-contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #033872; /* Icon color */
+}
+
+.footer-contact li:last-child {
+    margin-bottom: 0;
+}
+
+
+.footer-copyright {
+    font-size: 14px;
+    color: #333; /* Text color for copyright notice */
+    margin-top: 20px; /* Adjust the margin as needed */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for Hero section on screens up to 400x760 */
+@media (max-width: 1020px) {
+    html, body {
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .hero {
+        padding: 60px 0; /* Adjust the padding for smaller screens */
+    }
+    
+    .hero h1 {
+        font-size: 24px; /* Adjust the font size for smaller screens */
+    }
+    
+    .hero p {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+        margin-bottom: 20px; /* Reduce margin for smaller screens */
+    }
+
+    .services {
+        padding: 40px 0; /* Adjust the padding for smaller screens */
+    }
+    
+    .services h2 {
+        font-size: 24px; /* Adjust the font size for smaller screens */
+    }
+    
+    .service-item {
+        max-width: 100%; /* Ensure items take full width on smaller screens */
+        margin-bottom: 20px; /* Increase margin for better spacing */
+    }
+    
+    .service-item img {
+        height: auto; /* Allow image height to adapt to smaller screens */
+    }
+    
+    .service-item h3 {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
+    
+    .service-item p {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    .about {
+        padding: 60px 0; /* Adjust the padding for smaller screens */
+    }
+    
+    .section-title {
+        font-size: 24px; /* Adjust the font size for smaller screens */
+    }
+    
+    .about-description {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    .contact {
+        padding: 40px 0; /* Adjust the padding for smaller screens */
+    }
+    
+    .contact .section-title {
+        font-size: 24px; /* Adjust the font size for smaller screens */
+        margin-bottom: 20px; /* Reduce margin for smaller screens */
+    }
+    
+    .contact-info {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+        margin-bottom: 20px; /* Reduce margin for smaller screens */
+    }
+    
+    .contact-item i {
+        font-size: 20px; /* Adjust the icon size for smaller screens */
+        margin-right: 10px; /* Reduce spacing for smaller screens */
+    }
+
+    .footer {
+        padding: 40px 0; /* Adjust the padding for smaller screens */
+    }
+    
+    .footer-logo a {
+        font-size: 24px; /* Adjust the font size for smaller screens */
+    }
+    
+    .footer-text {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+        margin-top: 10px; /* Reduce margin for smaller screens */
+    }
+    
+    .footer-social a {
+        font-size: 20px; /* Adjust the social icon size for smaller screens */
+        margin-right: 10px; /* Reduce spacing for smaller screens */
+    }
+    
+    .footer-title {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+        margin-top: 20px; /* Reduce margin for smaller screens */
+    }
+    
+    .footer-links li {
+        margin-bottom: 5px; /* Reduce spacing for smaller screens */
+    }
+    
+    .footer-contact i {
+        font-size: 16px; /* Adjust the icon size for smaller screens */
+        margin-right: 5px; /* Reduce spacing for smaller screens */
+    }
+    
+    .footer-copyright {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+        margin-top: 10px; /* Reduce margin for smaller screens */
+    }
+}
