@@ -72,7 +72,7 @@ Before you begin, ensure you have the following:
 
 ## Usage
 
-Visit the Xavier's Wig Boutique website at [https://www.xavierswigs.com](https://www.xavier.com.ng) to explore our fantastic wig collection. Use the navigation bar to browse different sections, find your favorite wigs, and place your order.
+Visit the Xavier's Wig Boutique website at [https://www.xavier.com.ng](https://www.xavier.com.ng) to explore our fantastic wig collection. Use the navigation bar to browse different sections, find your favorite wigs, and place your order.
 
 ## Contributing
 
